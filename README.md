@@ -21,22 +21,33 @@
 
 2. 將專案複製到本機
 
-   `$ git clone https://github.com/querlemtle/restaurant_list`
+   ```
+   $ git clone https://github.com/querlemtle/restaurant_list
+   ```
 
 3. 移動至專案資料夾內
 
-   `$ cd restaurant_list`
+   ```
+   $ cd restaurant_list
+   ```
 
 4. 安裝 npm
 
-   `$ npm install`
+   ```
+   $ npm install
+   ```
 
 5. 啟動伺服器
 
-   `$ npm run start`
+   ```
+   $ npm run start
+   ```
 
    若主控台出現下列訊息表示成功運行：
-   `Express is listening on http://localhost:3000`
+
+   ```
+   Express is listening on http://localhost:3000
+   ```
 
 6. 開啟瀏覽器，輸入 [localhost:3000](http://localhost:3000) 查看網頁
 
