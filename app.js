@@ -16,7 +16,7 @@ app.use(express.static('public'));
 
 // 設定路由
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', { restaurants: restaurantList.results });
 });
 
 app.get('/restaurants/:restaurant_id', (req, res) => {
