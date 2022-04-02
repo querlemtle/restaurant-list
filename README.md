@@ -3,6 +3,7 @@
 ## 簡介
 
 - 以 Node.js + Express 建置的餐廳收藏清單
+
   ![restaruant_list_preview](/public/images/preview.png)
 
 ## 特色

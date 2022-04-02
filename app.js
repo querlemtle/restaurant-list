@@ -20,7 +20,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/search', (req, res) => {
+  // 取得使用者輸入之關鍵字
   const keyword = req.query.keyword;
+  // 以輸入關鍵字至餐廳清單中搜尋是否有對應名稱或類別，並去除大小寫差異
   const restaurants = restaurantList.results.filter(restaurant => {
     return restaurant.name.toLowerCase().includes(keyword) || 
     restaurant.category.toLowerCase().includes(keyword);
@@ -29,6 +31,7 @@ app.get('/search', (req, res) => {
 });
 
 app.get('/restaurants/:restaurant_id', (req, res) => {
+  // 根據被點擊圖卡超連結的id，至清單內找到對應資料
   const restaurant = restaurantList.results.find(restaurant => restaurant.id.toString() === req.params.restaurant_id);
   res.render('show', { restaurant: restaurant });
 });
