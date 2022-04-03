@@ -14,31 +14,33 @@
 
 ## 如何使用
 
-1. 開啟終端機
+1. 安裝 [Node.js](https://nodejs.org/en/) 與 [Git](https://git-scm.com/)
+
+2. 開啟終端機
 
    - Mac：開啟 Terminal
 
    - Windows：開啟 Git Bash 或 [Cmder](https://cmder.net/)
 
-2. 將專案複製到本機
+3. 將專案複製到本機
 
    ```
    $ git clone https://github.com/querlemtle/restaurant_list
    ```
 
-3. 移動至專案資料夾內
+4. 移動至專案資料夾內
 
    ```
    $ cd restaurant_list
    ```
 
-4. 安裝 npm
+5. 安裝 npm
 
    ```
    $ npm install
    ```
 
-5. 啟動伺服器
+6. 啟動伺服器
 
    ```
    $ npm run start
@@ -50,9 +52,9 @@
    Express is listening on http://localhost:3000
    ```
 
-6. 開啟瀏覽器，輸入 [localhost:3000](http://localhost:3000) 查看網頁
+7. 開啟瀏覽器，輸入 [localhost:3000](http://localhost:3000) 查看網頁
 
-7. 中斷伺服器：`Ctrl` + `C`
+8. 中斷伺服器：`Ctrl` + `C`
 
 ## 開發工具
 
